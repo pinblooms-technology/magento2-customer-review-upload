@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="PinBlooms_CustomerReviewsUpload::csv_upload"
+             title="Upload Customer Reviews by CSV"
+             module="PinBlooms_CustomerReviewsUpload"
+             sortOrder="50"
+             parent="Magento_Backend::marketing"
+             action="createmenubackend/create/index"
+             resource="PinBlooms_CustomerReviewsUpload::csv_upload"
+        />
+    </menu>
+</config>
